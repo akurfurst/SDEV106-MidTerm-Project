@@ -27,88 +27,94 @@ Pseudo classes you may need:
 */
 
 /* Write your CSS code here */
-body {
+body{
     background-color: #e7f6f8;
 }
 
-header {
+header{
     background-color: #3498db;
     color: white;
     font-family: sans-serif;
+    border-radius: 5px;
+    
 }
 
-main {
+main{
     background-color: white;
     padding: 10px;
     margin: 10px 0px 15px 0px;
+    border-radius: 2px;
 }
 
-section {
+section{
     background-color: #f9f9f9;
     font-family: sans-serif;
     margin: 25px;
     padding: 10px 15px 30px 15px;
+    border-radius: 2px;
 }
 
-h2 {
-    margin: 0px 10px 5px 5px;
+h2{
+    margin: 10px;
     border-left: 2px solid #3498db;
     border-bottom: 2px solid #3498db;
-    padding: 0px 10px 5px 5px;
+    color: #2c3e6b;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
-p {
+p{
     font-family: sans-serif;
     margin: 10px;
 }
 
-p:first-letter {
+p:first-letter{
     font-size: 35px;
     color: #3498db;
     font-weight: bold;
-
+    
 }
 
-table {
+table{
     margin: 10px;
 }
 
-th {
+th{
     background-color: #3498db;
     color: white;
     padding: 10px;
 }
 
-tr td {
+tr td{
     border-bottom: 1px solid grey;
     height: 50px;
     padding-left: 10px;
 }
 
-tr:hover {
+tr:hover{
     background-color: #e0f7fa;
 }
 
-tr:hover:nth-child(even) {
+tr:hover:nth-child(even){
     background-color: #e0f7fa;
 }
 
-tr:nth-child(even) {
+tr:nth-child(even){
     background-color: #f2f2f2;
 }
 
-footer p:first-letter {
+footer p:first-letter{
     color: grey;
     font-size: 15px;
     font-weight: lighter;
 
 }
 
-img {
+img{
     border-radius: 10px;
 }
 
-footer p {
+footer p{
     color: grey;
     font-size: 15px;
 }
